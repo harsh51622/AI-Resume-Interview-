@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
 from .prompts import QUESTION_GENERATION_PROMPT, INTERVIEW_EVALUATION_PROMPT
-import google.generativeai as genai
+from google import genai
 load_dotenv()
 
 
