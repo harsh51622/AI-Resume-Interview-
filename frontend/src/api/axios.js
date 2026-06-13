@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://ai-resume-interview-production.up.railway.app/",
+  baseURL: "https://ai-resume-interview-production.up.railway.app/api/",
 });
 
 // Access token automatically attach
